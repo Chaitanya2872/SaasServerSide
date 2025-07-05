@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@db/*": ["libs/db/src/*"],
+      "@logger/*": ["libs/logger/src/*"],
+      "@utils/*": ["libs/utils/src/*"],
+      "@middlewares/*": ["libs/middlewares/src/*"]
+    }
+  }
+}
